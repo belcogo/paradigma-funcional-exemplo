@@ -18,7 +18,7 @@ ___
 
 - João Vítor Accorsi
 
-- Marcos Vinicius Berte
+- Marcos Vinicius Berté
 
 - Rafael Hansen Klauck
 
