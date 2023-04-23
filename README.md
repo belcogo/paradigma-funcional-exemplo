@@ -4,7 +4,7 @@
 
 ## Instruções
 
-1. Vá para a pasta raiz do projeto, `paradigma-funcional`
+1. Acesse a a pasta raiz do projeto, `paradigma-funcional-ts`, via terminal
 1. Execute o comando `yarn`
 1. Execute o comando `yarn build`
 1. Execute o comando `yarn start` e acesse a URL apresentada no console
