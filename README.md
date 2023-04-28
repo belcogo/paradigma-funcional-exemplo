@@ -34,3 +34,10 @@ ___
 **Instituição**
 
 - Universidade do Vale do Rio dos Sinos (UNISINOS)
+
+___
+
+**Referências de Código**
+
+- Pilha com Notação Polonesa para resolução das equações
+https://github.com/AndersonRezende/infixa-posfixa
