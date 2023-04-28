@@ -2,12 +2,14 @@
 
 ## Pré requisitos
 
+- Node
+- yarn / npm
+
 ## Instruções
 
 1. Acesse a a pasta raiz do projeto, `paradigma-funcional-ts`, via terminal
-1. Execute o comando `yarn`
-1. Execute o comando `yarn build`
-1. Execute o comando `yarn start` e acesse a URL apresentada no console
+1. Execute o comando `yarn` ou `npm i`
+1. Execute o comando `yarn start` ou `npm run start` e acesse a URL apresentada no console
 
 ## Objetivo
 

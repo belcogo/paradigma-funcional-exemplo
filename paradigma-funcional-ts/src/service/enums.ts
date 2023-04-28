@@ -4,8 +4,3 @@ export enum Operations {
   Multiply = "*",
   Divide = "/",
 }
-
-export enum MathType {
-  Expression = "expression",
-  Value = "value",
-}
