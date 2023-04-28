@@ -1,6 +1,5 @@
 import { Operation } from "./constants";
 import { Operations } from "./enums";
-import { IMath } from "./interfaces";
 
 export class Calculator {
   private constructor() {}
@@ -85,9 +84,9 @@ export class Calculator {
       if (currentToken?.match(Calculator.regexDigits)) {
         auxStack.push(Number(currentToken));
       } else if (currentToken?.match(Calculator.regexOperators)) {
-        const aux2 = auxStack.pop() || 0;
-        const aux1 = auxStack.pop() || 0;
-        const newValue = Operation[currentToken](aux1, aux2);
+        const secondValue = auxStack.pop() || 0;
+        const firstValue = auxStack.pop() || 0;
+        const newValue = Operation[currentToken](firstValue, secondValue);
         auxStack.push(newValue);
       }
       count++;
